@@ -6,4 +6,4 @@ class Clientes(admin.ModelAdmin):
     list_display_links = ('id', 'nome')
     search_fields = ('nome',)
 
-    
+admin.site.register(Cliente, Clientes)
