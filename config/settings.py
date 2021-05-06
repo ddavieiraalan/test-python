@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cadastro',
     'cpf_field',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
